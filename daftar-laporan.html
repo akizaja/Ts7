@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Daftar Laporan PKL - Kelompok 5</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+<header>
+    <nav>   
+        <div class="logo">KELOMPOK-5</div>
+    <ul class="nav-links">
+        <li><a href="dashboard.html"><i class="fas fa-dashboard"></i> Dashboard</a></li>
+        <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+        <li><a href="laporan.html"><i class="fas fa-file-alt"></i> Laporan PKL</a></li>
+        <li><a href="daftar-laporan.html" class="active"><i class="fas fa-list-alt"></i> Daftar Laporan</a></li>
+        <li><a href="contact.html"><i class="fas fa-envelope"></i> Contact</a></li>
+        <li><a href="login.html" id="logout-link"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
+     </ul>
+    </nav>
+</header>
+
+<main class="data-page">
+    <div class="data-container">
+        <h1>Daftar Laporan PKL Siswa</h1>
+        <p class="subtitle">Berikut adalah semua laporan kegiatan yang telah tersimpan di database.</p>
+        
+        <div class="filter-container">
+            <input type="text" id="search-nama" placeholder="Cari berdasarkan nama...">
+            <input type="text" id="search-kelas" placeholder="Cari berdasarkan kelas...">
+        </div>
+
+        <div class="table-wrapper">
+            <table id="laporan-table">
+                <thead>
+                    <tr>
+                        <th>Nama Siswa</th>
+                        <th>NIS</th>
+                        <th>Kelas</th>
+                        <th>Perusahaan</th>
+                        <th>Tanggal Laporan</th>
+                        <th>Aksi</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Ahmad Fauzi</td>
+                        <td>12345678</td>
+                        <td>XII RPL 1</td>
+                        <td>PT. Teknologi Maju</td>
+                        <td>2025-10-21</td>
+                        <td><button class="btn-download-row">Download PDF</button></td>
+                    </tr>
+                    <tr>
+                        <td>Budi Santoso</td>
+                        <td>87654321</td>
+                        <td>XII RPL 2</td>
+                        <td>CV. Cipta Karya</td>
+                        <td>2025-10-21</td>
+                        <td><button class="btn-download-row">Download PDF</button></td>
+                    </tr>
+                                    <tr>
+                        <td>Budi Santoso</td>
+                        <td>87654321</td>
+                        <td>XII RPL 2</td>
+                        <td>CV. Cipta Karya</td>
+                        <td>2025-10-21</td>
+                        <td><button class="btn-download-row">Download PDF</button></td>
+                    </tr>
+                    <tr>
+                        <td>Citra Lestari</td>
+                        <td>11223344</td>
+                        <td>XII RPL 3</td>
+                        <td>PT. Solusi Digital</td>
+                        <td>2025-10-21</td>
+                        <td><button class="btn-download-row">Download PDF</button></td>
+                    </tr>
+
+                    <tr>
+                        <td>Dewi Anggraini</td>
+                        <td>44332211</td>
+                        <td>XII RPL 1</td>
+                        <td>PT. Kreatif Media</td>
+                        <td>2025-10-21</td>
+                        <td><button class="btn-download-row">Download PDF</button></td>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</main>
+</body>
+</html>
