@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Public Showcase - Kelompok 5</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+</head>
+<body>
+
+    <div class="parallax-bg" style="position: fixed; width: 100%; height: 100%; z-index: -1;">
+        <div class="layer layer-sky"></div>
+        <div class="moon"></div>
+    </div>
+
+    <header>
+        <nav>
+            <div class="logo">KELOMPOK-5</div>
+            <ul class="nav-links">
+                <li><a href="home.html"><i class="fas fa-home"></i> Home</a></li>
+                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
+                <li><a href="login.html" class="active"><i class="fas fa-sign-in-alt"></i> Login Area</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="dashboard-style" style="min-height: 100vh; align-items: center;">
+        
+        <div class="dashboard-container" style="max-width: 900px;">
+            
+            <div style="text-align: center; margin-bottom: 40px;">
+                <h1 style="font-size: 2.5rem; margin-bottom: 10px;">Showcase Proyek PKL</h1>
+                <p style="color: #cdd6e0;">Berikut adalah ringkasan progres kegiatan Kelompok 5.</p>
+            </div>
+
+            <div class="stat-grid" style="margin-bottom: 40px;">
+                
+                <div class="stat-card" style="cursor: default;">
+                    <div style="font-size: 2rem; color: #4a69ff; margin-bottom: 10px;">
+                        <i class="fas fa-users"></i>
+                    </div>
+                    <h3>Anggota Tim</h3>
+                    <p>5 Orang</p> </div>
+
+                <div class="stat-card" style="cursor: default;">
+                    <div style="font-size: 2rem; color: #2dd4bf; margin-bottom: 10px;">
+                        <i class="fas fa-check-circle"></i>
+                    </div>
+                    <h3>Status Proyek</h3>
+                    <p>On Progress</p>
+                </div>
+
+                <div class="stat-card" style="cursor: default;">
+                    <div style="font-size: 2rem; color: #bc6bff; margin-bottom: 10px;">
+                        <i class="fas fa-layer-group"></i>
+                    </div>
+                    <h3>Modul Selesai</h3>
+                    <p>8 Modul</p>
+                </div>
+
+                <div class="stat-card" style="cursor: default;">
+                    <div style="font-size: 2rem; color: #f59e0b; margin-bottom: 10px;">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <h3>Teknologi</h3>
+                    <p>HTML/CSS/JS</p>
+                </div>
+
+            </div>
+
+            <div style="text-align: center; padding: 30px; background: rgba(0,0,0,0.2); border-radius: 16px; border: 1px dashed rgba(255,255,255,0.1);">
+                <h3 style="margin-bottom: 10px; font-weight: 600;">Ingin melihat detail laporan lengkap?</h3>
+                <p style="color: #aeb8c4; margin-bottom: 20px; font-size: 0.9rem;">
+                    Akses penuh ke jurnal harian, file laporan, dan fitur manajemen hanya tersedia untuk anggota terdaftar.
+                </p>
+                <a href="login.html" class="btn btn-secondary" style="margin-top: 0;">
+                    Masuk ke Sistem
+                </a>
+            </div>
+
+        </div>
+
+        <div style="
+            position: fixed;
+            bottom: 20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100%;
+            text-align: center;
+            pointer-events: none;
+            z-index: 100;
+        ">
+            <p style="
+                font-size: 0.75rem; 
+                color: rgba(255, 255, 255, 0.5); 
+                margin: 0;
+                font-weight: 400;
+                letter-spacing: 0.5px;
+                text-shadow: 0 1px 2px rgba(0,0,0,0.5);
+            ">
+                Web ini bisa di isi dengan kegiatan PKL
+            </p>
+        </div>
+
+    </main>
+
+</body>
+</html>
