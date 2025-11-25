@@ -1,31 +1,14 @@
 <!DOCTYPE html>
 <html lang="id">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Public Showcase - Kelompok 5</title>
     <link rel="stylesheet" href="style.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
-</head>
+    </head>
 <body>
-
-    <div class="parallax-bg" style="position: fixed; width: 100%; height: 100%; z-index: -1;">
-        <div class="layer layer-sky"></div>
-        <div class="moon"></div>
-    </div>
-
-    <header>
-        <nav>
-            <div class="logo">KELOMPOK-5</div>
-            <ul class="nav-links">
-                <li><a href="home.html"><i class="fas fa-home"></i> Home</a></li>
-                <li><a href="about.html"><i class="fas fa-info-circle"></i> About</a></li>
-                <li><a href="login.html" class="active"><i class="fas fa-sign-in-alt"></i> Login Area</a></li>
-            </ul>
-        </nav>
-    </header>
-
+        <header>
+            <nav>
+                <div class="logo">KELOMPOK-5</div>
+            </nav>
+        </header>
     <main class="dashboard-style" style="min-height: 100vh; align-items: center;">
         
         <div class="dashboard-container" style="max-width: 900px;">
@@ -35,39 +18,39 @@
                 <p style="color: #cdd6e0;">Berikut adalah ringkasan progres kegiatan Kelompok 5.</p>
             </div>
 
-            <div class="stat-grid" style="margin-bottom: 40px;">
+            <div class="project-summary-card">
+                <h2>Sistem Informasi Manajemen Aset (SIMA)</h2>
+                <p>
+                    Proyek PKL Kelompok 5 adalah pengembangan Sistem Informasi Manajemen Aset (SIMA) berbasis web untuk mengoptimalkan pencatatan, pemantauan, dan pelaporan inventaris kantor. Tujuan utama sistem ini adalah mengurangi kesalahan data, mempercepat proses audit, dan menyediakan visualisasi status aset secara real-time.
+                </p>
+            </div>
+            
+            <div class="module-showcase-section">
+                <h2 class="section-title"> Fitur Utama yang Telah Selesai</h2>
                 
-                <div class="stat-card" style="cursor: default;">
-                    <div style="font-size: 2rem; color: #4a69ff; margin-bottom: 10px;">
-                        <i class="fas fa-users"></i>
+                <div class="feature-grid">
+                    
+                    <div class="feature-card">
+                        <h4 class="feature-title"><i class="fas fa-lock"></i>Autentikasi</h4>
+                        <p class="feature-description">Sistem login, logout, dan register berbasis hak akses (Admin & Staff) dengan enkripsi password.</p>
                     </div>
-                    <h3>Anggota Tim</h3>
-                    <p>5 Orang</p> </div>
-
-                <div class="stat-card" style="cursor: default;">
-                    <div style="font-size: 2rem; color: #2dd4bf; margin-bottom: 10px;">
-                        <i class="fas fa-check-circle"></i>
+            
+                    <div class="feature-card">
+                        <h4 class="feature-title"><i class="fas fa-database"></i> Manajemen Data Dasar</h4>
+                        <p class="feature-description">Fungsi CRUD (Create, Read, Update, Delete) untuk data Kategori Aset dan Lokasi Penyimpanan.</p>
                     </div>
-                    <h3>Status Proyek</h3>
-                    <p>On Progress</p>
+            
+                    <div class="feature-card">
+                        <h4 class="feature-title"><i class="fas fa-cubes"></i> Daftar Inventaris Aset</h4>
+                        <p class="feature-description">Tabel data aset utama dengan fitur pencarian dan pagination untuk data berskala besar.</p>
+                    </div>
+            
+                    <div class="feature-card">
+                        <h4 class="feature-title"><i class="fas fa-chart-bar"></i> Dashboard Ringkasan</h4>
+                        <p class="feature-description">Tampilan statistik grafis sederhana mengenai jumlah total aset dan aset yang membutuhkan perawatan.</p>
+                    </div>
+            
                 </div>
-
-                <div class="stat-card" style="cursor: default;">
-                    <div style="font-size: 2rem; color: #bc6bff; margin-bottom: 10px;">
-                        <i class="fas fa-layer-group"></i>
-                    </div>
-                    <h3>Modul Selesai</h3>
-                    <p>8 Modul</p>
-                </div>
-
-                <div class="stat-card" style="cursor: default;">
-                    <div style="font-size: 2rem; color: #f59e0b; margin-bottom: 10px;">
-                        <i class="fab fa-js"></i>
-                    </div>
-                    <h3>Teknologi</h3>
-                    <p>HTML/CSS/JS</p>
-                </div>
-
             </div>
 
             <div style="text-align: center; padding: 30px; background: rgba(0,0,0,0.2); border-radius: 16px; border: 1px dashed rgba(255,255,255,0.1);">
@@ -80,31 +63,8 @@
                 </a>
             </div>
 
-        </div>
-
-        <div style="
-            position: fixed;
-            bottom: 20px;
-            left: 50%;
-            transform: translateX(-50%);
-            width: 100%;
-            text-align: center;
-            pointer-events: none;
-            z-index: 100;
-        ">
-            <p style="
-                font-size: 0.75rem; 
-                color: rgba(255, 255, 255, 0.5); 
-                margin: 0;
-                font-weight: 400;
-                letter-spacing: 0.5px;
-                text-shadow: 0 1px 2px rgba(0,0,0,0.5);
-            ">
-                Web ini bisa di isi dengan kegiatan PKL
-            </p>
-        </div>
-
-    </main>
+        </div> 
+        </main>
 
 </body>
 </html>
